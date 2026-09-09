@@ -68,4 +68,5 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           #password: ${{ secrets.SSH_PASSWORD }}
           key: ${{ secrets.SSH_KEY }}
+          passphrase: ${{ secrets.SSH_PASSPHRASE }}
           script: expect /home/alexm/django_cicd/deploy.exp
