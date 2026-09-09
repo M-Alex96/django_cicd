@@ -1,0 +1,8 @@
+#!/bin/bash
+
+spawn /home/alexm/django_cicd/deploy.sh
+expect "yes
+send -- "yes\r"
+expect "password"
+send -- "Rspe2830\r"
+expect eof
